@@ -1,10 +1,10 @@
-'''n=2000
+1.'''n=2000
 while n<3200:
     if(n%7==0 and n%5!=0):
         print(n)
     n=n+1 '''
     
-'''factorial=1
+2.'''factorial=1
 n=0 
 print("enter the number for factorial")
 number=int(input())
@@ -15,7 +15,7 @@ print(factorial)
 
 
 
-n=0
+3. n=0
 first=1 
 second=1 
 print("enter the number for integral")
@@ -25,4 +25,13 @@ while number>0:
     first=first+1  
     second=first*first
     number=number-1
-    print(n)'''
+    print(n)
+
+
+7. n=int(input("enter the number"))
+i=n 
+print("list of all natural number from {0} to 1 ")
+while(i>=1):
+    print(i,end=' ')
+    i=i-1'''
+    
